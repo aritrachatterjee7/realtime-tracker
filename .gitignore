@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Generated files
+*.log
+*.txt      # ignore any text files that might be generated
+*.html     # ignore any HTML files that might be generated
+*.ejs      # ignore any EJS files that might be generated
+
+# Environment variables
+.env
+
+# IDE and editor specific files
+.vscode/
+.idea/
+
+# Tailwind CSS specific build directory (if using it)
+/public/build/
+
+# Ignore any other build or compiled files
+/build/
+
+# Ignore any user-specific files or directories
+.DS_Store
+
+# Ignore any backup files
+*~
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore yarn errors log
+yarn-error.log
+
+# Ignore any local configuration specific to your machine
+config.local.js
+
+# Ignore sensitive or private config files
+config.js
